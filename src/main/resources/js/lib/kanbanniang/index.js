@@ -123,7 +123,7 @@ var soloKanbanniang = {
     })
 
     $('#soloKanbanniangGithub').click(function () {
-      window.location = 'https://github.com/b3log/solo'
+      window.location = 'https://github.com/jadenjin'
     })
 
     $('#soloKanbanniangChat').click(function () {

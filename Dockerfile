@@ -6,7 +6,7 @@ RUN cd /tmp && mvn package -DskipTests -Pci -q && mv target/solo/* /opt/solo/ \
 && cp -f /tmp/src/main/resources/docker/* /opt/solo/
 
 FROM openjdk:18-slim
-LABEL maintainer="Liang Ding<845765@qq.com>"
+LABEL maintainer="Jaden Chen<chenjinjit@gmail.com>"
 
 WORKDIR /opt/solo/
 COPY --from=MVN_BUILD /opt/solo/ /opt/solo/
